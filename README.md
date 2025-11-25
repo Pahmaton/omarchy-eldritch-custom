@@ -13,13 +13,16 @@ Main Theme repo can be found [here](https://github.com/eldritch-theme/eldritch)
 <img width="882" height="606" alt="image" src="https://github.com/user-attachments/assets/d56ae83f-bbb9-42e6-b656-225777e1cff6" />
 
 ### Installation:
+#### Automatically with omarchy-theme-install
+```
+omarchy-theme-install https://github.com/eldritch-theme/omarchy.git
+```
+
+#### Manual
 1. Clone this repo inside `~/.config/omarchy/themes`.
 2. `SUPER+ALT+SPACE` to open walker.
 3. Select *Style*, then *Theme*, then *Eldritch*.
 4. Enjoy!
 
-  **OR**
 
-```
-omarchy-theme-install https://github.com/codyjgeorge/omarchy-eldritch-theme.git
-```
+
