@@ -7,7 +7,7 @@ Eldritch is a community-driven dark theme inspired by Lovecraftian horror. With 
 
 Main Theme repo can be found [here](https://github.com/eldritch-theme/eldritch)
 
-### Showcase
+### Showcase:
 <img width="3429" height="1433" alt="preview" src="https://github.com/user-attachments/assets/8ffe573c-5548-43d2-b61c-a34e8527cd72" />
 <img width="909" height="784" alt="image" src="https://github.com/user-attachments/assets/2801c667-b773-4aed-b0ad-16a29e196d05" />
 <img width="882" height="606" alt="image" src="https://github.com/user-attachments/assets/d56ae83f-bbb9-42e6-b656-225777e1cff6" />
@@ -17,3 +17,9 @@ Main Theme repo can be found [here](https://github.com/eldritch-theme/eldritch)
 2. `SUPER+ALT+SPACE` to open walker.
 3. Select *Style*, then *Theme*, then *Eldritch*.
 4. Enjoy!
+
+  **OR**
+
+```
+omarchy-theme-install https://github.com/codyjgeorge/omarchy-eldritch-theme.git
+```
