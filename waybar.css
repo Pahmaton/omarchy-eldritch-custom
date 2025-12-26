@@ -1,2 +1,17 @@
 @define-color background #212337;
 @define-color foreground #37f499;
+
+window#waybar {
+    background: transparent;
+    border: none;
+}
+
+window#waybar > box {
+    border: 2px solid rgba(255, 255, 255, 0.1); 
+    
+    border-radius: 10px;
+    margin: 8px 10px 0px;
+    padding: 4px;
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
