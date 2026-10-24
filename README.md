@@ -12,26 +12,21 @@ Main Theme repo can be found [here](https://github.com/eldritch-theme/eldritch)
 <img width="909" height="784" alt="image" src="https://github.com/user-attachments/assets/2801c667-b773-4aed-b0ad-16a29e196d05" />
 <img width="882" height="606" alt="image" src="https://github.com/user-attachments/assets/d56ae83f-bbb9-42e6-b656-225777e1cff6" />
 
-### Installation:
-#### Automatically with omarchy-theme-install
-```
-omarchy-theme-install https://github.com/eldritch-theme/omarchy.git
-```
+### Installation (Omarchy 4 / Quattro):
+Omarchy ignores `*.lua`, terminal configs and `vscode.json` from themes cloned
+straight into `~/.config/omarchy/themes` (it detects the `.git` directory), which
+would drop the animations, Neovim and VS Code themes. Clone the repo elsewhere and
+symlink it instead:
 
-#### Manual
-1. Clone this repo inside `~/.config/omarchy/themes`.
-2. `SUPER+ALT+SPACE` to open walker.
-3. Select *Style*, then *Theme*, then *Eldritch*.
-4. Enjoy!
+```
+git clone https://github.com/Pahmaton/omarchy-eldritch-custom.git ~/Projects/omarchy-eldritch-custom
+ln -s ~/Projects/omarchy-eldritch-custom ~/.config/omarchy/themes/omarchy-eldritch-custom
+omarchy theme set omarchy-eldritch-custom
+```
 
 #### Remove Opacity
-1. Access looknfeel.conf either by:
-  - `~/.config/hypr/looknfeel.conf`
-
-    or
-  - Omarchy Menu (`SUPER+ALT+SPACE`) > Setup > Hyperland (this opens `~/.config/hypr/looknfeel.conf`)
-2. Add this:
-```
-# Force full opacity (overrides default Omarchy opacity rules)
-windowrule = opacity 1 1, class:.*
+Add this to the end of `~/.config/hypr/hyprland.lua`:
+```lua
+-- Force full opacity (overrides default Omarchy opacity rules)
+o.window({ tag = "default-opacity" }, { opacity = "1 1" })
 ```
