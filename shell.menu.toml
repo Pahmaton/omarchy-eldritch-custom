@@ -1,0 +1,14 @@
+# Launcher, menus, clipboard and emoji picker (the launcher reads [menu] too).
+# Selected row gets a faint green tint and border instead of a white one.
+background                = "#212337"
+background-alpha          = 1.0
+text                      = "#ebfafa"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#212337"
+scrim-alpha               = 0.5
+selected-background       = "#37f499"
+selected-background-alpha = 0.10
+selected-text             = "#37f499"
+selected-border           = "#37f499"
+selected-border-alpha     = 0.35

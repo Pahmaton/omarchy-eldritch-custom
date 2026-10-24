@@ -1,0 +1,8 @@
+# Panel controls (bar dropdowns, settings). Only the persistent "selected"
+# state changes: green tint + thin green border, matching the menu rows.
+# Every other control token keeps the shell default.
+selected-color        = "#37f499"
+selected-fill-alpha   = 0.12
+selected-border       = "#37f499"
+selected-border-width = 1
+selected-border-alpha = 0.35

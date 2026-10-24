@@ -29,3 +29,8 @@ bright_green = "#69f8b3"
 bright_cyan = "#66e4fd"
 bright_blue = "#a48cf2"
 bright_magenta = "#fd92ce"
+
+# Window borders. Kept in sync with hyprland.lua, which ships its own border
+# colors; the shell (notifications, popups, lock screen) reads these keys.
+hyprland_active_border = "rgba(37f499cc)"
+hyprland_inactive_border = "rgba(7081d066)"

@@ -1,0 +1,8 @@
+# Lock screen in the style of the old Eldritch hyprlock: green text on a
+# translucent abyss card, cyan border that turns comment-blue while typing.
+background       = "#212337"
+background-alpha = 0.66
+text             = "#37f499"
+placeholder      = "#30b57c"
+border           = "#04d1f9"
+border-active    = "#7081d0"
